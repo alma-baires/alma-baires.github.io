@@ -369,6 +369,7 @@ a { color: inherit; }
   height: 34px;
   width: auto;
   display: block;
+  transform: translateY(6px);
 }
 .footer-brand-name .brand-spaced {
   font-family: 'Cormorant', serif;
