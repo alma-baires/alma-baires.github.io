@@ -138,6 +138,7 @@ a { color: inherit; }
   height: 4.4rem;
   width: auto;
   display: block;
+  transform: translateY(0.625rem);
 }
 .hero-text .brand-hero .brand-spaced {
   font-family: 'Cormorant', serif;
