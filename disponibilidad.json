@@ -1,4 +1,13 @@
 {
+  "mono": [],
+  "catorce": [],
+  "octavo": [],
+  "rincon": [],
+  "uruguay": [],
+  "salguero": [],
+  "abasto": [],
+  "alsina": [],
+  "viamonte": [],
   "sincronizado": false,
-  "_nota": "Este archivo lo va a reescribir solo sync_disponibilidad.py (vía GitHub Actions) apenas se carguen links reales en ical_urls.json. 'sincronizado: false' le indica al sitio que todavía use los datos de ejemplo."
+  "_actualizado": "2026-08-17T21:54:58Z"
 }
