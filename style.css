@@ -21,6 +21,9 @@ body {
   line-height: 1.55;
 }
 
+/* Sobre nosotros / Ubicación / Contacto: fondo beige en la sección de información */
+body.info-page-beige { background: #f5eee0; }
+
 a { color: inherit; }
 
 .muted { color: var(--muted); }
@@ -170,6 +173,8 @@ a { color: inherit; }
 }
 .btn-primary { background: var(--btn-bg); color: var(--accent-ink); }
 .btn-primary:hover { background: var(--btn-bg-dark); }
+.btn-white { background: #ffffff; color: var(--accent-ink); }
+.btn-white:hover { background: #f1efe9; }
 .btn-block { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; text-transform: none; font-size: 0.95rem; }
 
 /* Search bar */
