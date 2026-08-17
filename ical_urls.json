@@ -1,0 +1,12 @@
+{
+  "_instrucciones": "Para cada departamento, pegá acá el link de exportación de calendario (.ics) de Airbnb y de Booking. Si un depto todavía no tiene el link de alguna plataforma, dejá ese campo como texto vacío \"\". Ver README-github.md para saber de dónde sacar estos links.",
+  "mono":     { "airbnb": "", "booking": "" },
+  "catorce":  { "airbnb": "", "booking": "" },
+  "octavo":   { "airbnb": "", "booking": "" },
+  "rincon":   { "airbnb": "", "booking": "" },
+  "uruguay":  { "airbnb": "", "booking": "" },
+  "salguero": { "airbnb": "", "booking": "" },
+  "abasto":   { "airbnb": "", "booking": "" },
+  "alsina":   { "airbnb": "", "booking": "" },
+  "viamonte": { "airbnb": "", "booking": "" }
+}
