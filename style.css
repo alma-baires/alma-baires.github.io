@@ -128,28 +128,23 @@ a { color: inherit; }
   letter-spacing: -0.02em;
 }
 .hero-text .brand-hero {
+  margin: 0 0 6px;
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
   gap: 14px;
-  margin: 0 0 10px;
+  flex-wrap: wrap;
 }
 .hero-text .brand-hero-alma {
-  height: 68px;
+  height: 4.4rem;
   width: auto;
   display: block;
 }
 .hero-text .brand-hero .brand-spaced {
   font-family: 'Cormorant', serif;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   letter-spacing: 0.35em;
-  text-transform: uppercase;
   color: #fff;
-}
-@media (max-width: 480px) {
-  .hero-text .brand-hero-alma { height: 46px; }
-  .hero-text .brand-hero .brand-spaced { font-size: 1.15rem; letter-spacing: 0.25em; }
 }
 .hero-text .brand-tagline {
   font-size: 0.8rem;
