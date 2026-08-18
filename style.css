@@ -356,7 +356,7 @@ a { color: inherit; }
 .info-list { list-style: none; padding: 0; margin: 0; }
 .info-list li { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; }
 
-.depto-sidebar { position: sticky; top: 90px; }
+.depto-sidebar { position: sticky; top: 90px; display: flex; flex-direction: column; gap: 20px; }
 .sidebar-card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -365,6 +365,8 @@ a { color: inherit; }
 }
 .sidebar-title { font-weight: 700; margin: 0 0 6px; }
 .sidebar-card .muted { font-size: 0.88rem; margin: 0 0 16px; }
+.calendar-block { margin: 0; }
+.calendar-block .sidebar-title { margin: 0 0 10px; }
 
 /* Footer */
 .site-footer { background: var(--accent-dark); color: #f1efe9; margin-top: 40px; }
@@ -412,6 +414,7 @@ a { color: inherit; }
   .gallery-big { height: 220px; }
   .features-inner { grid-template-columns: repeat(2, 1fr); }
   .hero-text h1 { font-size: 1.8rem; }
+  .depto-sidebar { order: -1; position: static; margin-bottom: 24px; }
 }
 
 .direccion { font-weight: 700; margin: 0 0 8px; }
@@ -456,7 +459,7 @@ a { color: inherit; }
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 16px 18px 18px;
-  margin: 10px 0 24px;
+  margin: 0;
 }
 .calendar-head {
   display: flex;
