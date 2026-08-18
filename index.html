@@ -62,10 +62,10 @@
     <div class="field">
       <label>Huéspedes</label>
       <select name="huespedes">
-        <option>1 huésped</option>
-        <option>2 huéspedes</option>
-        <option>3 huéspedes</option>
-        <option>4 huéspedes o más</option>
+        <option value="1">1 huésped</option>
+        <option value="2">2 huéspedes</option>
+        <option value="3">3 huéspedes</option>
+        <option value="4">4 huéspedes o más</option>
       </select>
     </div>
     <button type="submit" class="btn btn-primary">Consultar disponibilidad</button>
@@ -160,7 +160,7 @@ document.getElementById('search-form').addEventListener('submit', function(e){
   const f = new FormData(this);
   const entrada = f.get('entrada');
   const salida = f.get('salida');
-  const huespedes = f.get('huespedes');
+  const huespedes = parseInt(f.get('huespedes'), 10) || 1;
   const resultsEl = document.getElementById('avail-results');
 
   if (!entrada || !salida) {
@@ -175,8 +175,8 @@ document.getElementById('search-form').addEventListener('submit', function(e){
   resultsEl.scrollIntoView({behavior: 'smooth', block: 'start'});
 
   window.disponibilidadPromise.then(function() {
-    const disponibles = DEPTOS_JS.filter(d => estaDisponible(d.slug, entrada, salida));
-    const ocupados = DEPTOS_JS.filter(d => !estaDisponible(d.slug, entrada, salida));
+    const disponibles = DEPTOS_JS.filter(d => estaDisponible(d.slug, entrada, salida) && d.capacidad >= huespedes);
+    const ocupados = DEPTOS_JS.filter(d => !(estaDisponible(d.slug, entrada, salida) && d.capacidad >= huespedes));
 
     let html = DISPONIBILIDAD_ES_REAL
       ? ''
