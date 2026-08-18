@@ -32,6 +32,11 @@ body {
 /* Sobre nosotros / Ubicación / Contacto / Inicio: fondo beige en la sección de información */
 body.info-page-beige { background: #f5eee0; }
 
+/* Sobre nosotros / Ubicación / Contacto: misma altura total de página para que el
+   rectángulo marrón (pie de página) quede siempre en la misma posición al pasar
+   de una a otra, sin importar que el texto de cada página sea más largo o más corto. */
+body.info-page-fixed-height { min-height: max(100vh, 850px); }
+
 a { color: inherit; }
 
 .muted { color: var(--muted); }
