@@ -19,9 +19,17 @@ body {
   color: var(--ink);
   background: var(--bg);
   line-height: 1.55;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/* Sobre nosotros / Ubicación / Contacto: fondo beige en la sección de información */
+/* El contenido central crece para empujar el pie de página (footer) siempre al fondo,
+   incluso en páginas con poco texto (Contacto, Ubicación), en vez de dejar un espacio
+   de color de fondo debajo del rectángulo marrón. */
+.site-main { flex: 1 0 auto; }
+
+/* Sobre nosotros / Ubicación / Contacto / Inicio: fondo beige en la sección de información */
 body.info-page-beige { background: #f5eee0; }
 
 a { color: inherit; }
