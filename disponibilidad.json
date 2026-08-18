@@ -228,7 +228,7 @@
   "salguero": [
     {
       "desde": "2026-08-18",
-      "hasta": "2026-08-19"
+      "hasta": "2026-08-21"
     },
     {
       "desde": "2026-08-21",
@@ -350,5 +350,5 @@
     }
   ],
   "sincronizado": true,
-  "_actualizado": "2026-08-18T20:55:23Z"
+  "_actualizado": "2026-08-18T21:50:53Z"
 }
