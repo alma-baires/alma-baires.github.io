@@ -491,10 +491,10 @@ a { color: inherit; }
 }
 .day-empty { visibility: hidden; }
 .day-free { background: #f2ece1; color: var(--ink); }
-.day-blocked { background: #e4d9cb; color: #a89a86; text-decoration: line-through; }
+.day-blocked { background: #c2a377; color: #3e362d; text-decoration: line-through; }
 .day-today { box-shadow: inset 0 0 0 1.5px var(--accent); font-weight: 700; }
 .calendar-legend { display: flex; gap: 16px; margin-top: 12px; font-size: 0.78rem; color: var(--muted); }
 .legend-item { display: inline-flex; align-items: center; gap: 6px; }
 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 .dot-free { background: #f2ece1; border: 1px solid var(--line); }
-.dot-blocked { background: #e4d9cb; }
+.dot-blocked { background: #c2a377; }
