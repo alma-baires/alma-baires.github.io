@@ -1,12 +1,12 @@
 {
   "_instrucciones": "Para cada departamento, pegá acá el link de exportación de calendario (.ics) de Airbnb y de Booking. Si un depto todavía no tiene el link de alguna plataforma, dejá ese campo como texto vacío \"\". Ver README-github.md para saber de dónde sacar estos links.",
-  "mono":     { "airbnb": "", "booking": "" },
-  "catorce":  { "airbnb": "", "booking": "" },
-  "octavo":   { "airbnb": "", "booking": "" },
-  "rincon":   { "airbnb": "", "booking": "" },
-  "uruguay":  { "airbnb": "", "booking": "" },
-  "salguero": { "airbnb": "", "booking": "" },
-  "abasto":   { "airbnb": "", "booking": "" },
-  "alsina":   { "airbnb": "", "booking": "" },
-  "viamonte": { "airbnb": "", "booking": "" }
+  "mono":     { "airbnb": "https://www.airbnb.com.ar/calendar/ical/1652093530633722888.ics?t=f089a35e67f643c1ac0b123b7c14d514", "booking": "https://ical.booking.com/v1/export?t=3c6d3222-b383-4178-afcc-eceb6c33c91d" },
+  "catorce":  { "airbnb": "https://www.airbnb.com.ar/calendar/ical/1376421758015625402.ics?t=4488273dc0e44b46ba3bd93f1099c158", "booking": "https://ical.booking.com/v1/export?t=bcd5f329-aefe-49e0-ac0d-e35b5ed87f6b" },
+  "octavo":   { "airbnb": "https://www.airbnb.com.ar/calendar/ical/36036247.ics?t=025f87666458446caadbfbc06872fe78", "booking": "https://ical.booking.com/v1/export?t=ec28876c-74ab-468f-a823-2ce3ec4c572c" },
+  "rincon":   { "airbnb": "https://www.airbnb.com.ar/calendar/ical/1691980207396274329.ics?t=283e0c6021394b39834756791d322222", "booking": "https://ical.booking.com/v1/export?t=ef0c770c-3154-4aae-a3e2-8cf788a3bc7d" },
+  "uruguay":  { "airbnb": "", "booking": "https://ical.booking.com/v1/export?t=1bf64728-be20-4b17-95c8-bc29bf5a863f" },
+  "salguero": { "airbnb": "https://www.airbnb.com.ar/calendar/ical/39832161.ics?t=7a4c6f288c314503bb883057cb3f7367", "booking": "https://ical.booking.com/v1/export?t=7b305551-cece-466f-800a-960a5280edea" },
+  "abasto":   { "airbnb": "https://www.airbnb.com.ar/calendar/ical/1558885125748242836.ics?t=392df0215371491db51394b7cf18aa87", "booking": "https://ical.booking.com/v1/export?t=56fb796d-6a1b-46f7-836e-4fdf665eedd0" },
+  "alsina":   { "airbnb": "https://www.airbnb.com.ar/calendar/ical/41394725.ics?t=75523c4046ad41a09dd9d611fc21c8c9", "booking": "https://ical.booking.com/v1/export?t=df4ccfa7-e414-4015-b939-06b249b6c72c" },
+  "viamonte": { "airbnb": "https://www.airbnb.com.ar/calendar/ical/1560319907362299910.ics?t=d4e1cec35f924285bfe89351a6ed6102", "booking": "https://ical.booking.com/v1/export?t=e7d3b830-7c8a-43ed-bed0-14d0c4c4dee5" }
 }
